@@ -1,0 +1,101 @@
+*{
+  margin:0;
+  padding:0;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#main{
+   position:relative;
+   width:95%;
+  height:100vh;
+  border-radius:30px;
+  /* background-color: green; */
+  margin: 20px auto;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+#nav{
+   height: 100px;
+   /* background-color: black; */
+   position: absolute;
+   width: 100%;
+   z-index: 1;
+}
+#logo{
+    position:absolute;
+    left:40px;
+    top:15px;
+    width:180px;
+     mix-blend-mode:multiply;
+}
+#menu{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+   right:30px;
+   top:30px;
+  z-index: 3;
+}
+#box1{
+  width:60%;
+  height:100%;
+  background-color: #FFCC01;
+  position: absolute;
+  top: 0; 
+  left: 0;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+#text{
+  position:absolute;
+  top:220px;
+  left:80px;
+}
+
+#small{
+  font-size:20px;
+  letter-spacing:8px;
+  margin-bottom:20px;
+}
+
+#title{
+  font-size:110px;
+  font-weight:bold;
+  font-family:Arial;
+}
+
+#para{
+  width:420px;
+  font-size:22px;
+  line-height:40px;
+  margin-top:20px;
+}
+
+#box2{
+  width:40%;
+  height:100%;
+  right:0;
+  top:0;
+  background-color: #f3e7c7;
+  position: absolute; 
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  
+}
+#pikachu{
+  position:absolute;
+  
+  width:700px;
+
+  top:120px;
+
+  right:150px;
+
+  z-index:2;
+  mix-blend-mode: screen;
+mix-blend-mode: darken;
+filter: brightness(90%);
+}
